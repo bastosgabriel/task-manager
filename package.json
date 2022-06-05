@@ -1,0 +1,19 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js no Docker",
+    "author": "Gabriel Bastos <bastos.gabriel@poli.ufrj.br>",
+    "main": "server.js",
+    "scripts": {
+        "watch": "nodemon"
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    },
+    "nodemonConfig": {
+        "delay": 2000
+    }
+}
